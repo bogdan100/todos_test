@@ -12,7 +12,7 @@ browser.driver.controlFlow().execute = function() {
   return origFn.apply(browser.driver.controlFlow(), args);
 };
 
-describe('To test the "todos" app', function() {
+describe('To test the todos app', function() {
 
 	beforeEach(function(){
 		browser.get('http://todomvc.com/examples/angularjs');
